@@ -38,3 +38,51 @@ body{
 #center{
     text-align: center;
 }
+
+@media screen and (max-width: 1110px) {
+    .calculatorstyle{
+        width: 25%;
+        height: 380px;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(203, 207, 192);
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width: 897px) {
+    .calculatorstyle{
+        width: 35%;
+        height: 380px;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(203, 207, 192);
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width: 641px) {
+    .calculatorstyle{
+        width: 50%;
+        height: 380px;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(203, 207, 192);
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .calculatorstyle{
+        width: 80%;
+        height: 380px;
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(203, 207, 192);
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+}
+
+
+
+
+
+
