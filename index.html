@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Circle-icons-calculator.svg/1200px-Circle-icons-calculator.svg.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="calculatorstyle">
+        <form id="frm" name="calform">
+
+            <div id="center">
+                <input id="calcu" type="text" name="response" readonly> <br> <br>
+
+
+                <input class="button" type="button" value="1" onclick="calform.response.value += '1' ">
+                <input class="button" type="button" value="2" onclick="calform.response.value += '2' ">
+                <input class="button" type="button" value="3" onclick="calform.response.value += '3' ">
+                <input class="button" type="button" value="+" onclick="calform.response.value += '+' ">
+                <br> <br>
+
+                <input class="button" type="button" value="4" onclick="calform.response.value += '4' ">
+                <input class="button" type="button" value="5" onclick="calform.response.value += '5' ">
+                <input class="button" type="button" value="6" onclick="calform.response.value += '6' ">
+                <input class="button" type="button" value="-" onclick="calform.response.value += '-' ">
+                <br> <br>
+
+                <input class="button" type="button" value="7" onclick="calform.response.value += '7' ">
+                <input class="button" type="button" value="8" onclick="calform.response.value += '8' ">
+                <input class="button" type="button" value="9" onclick="calform.response.value += '9' ">
+                <input class="button" type="button" value="x" onclick="calform.response.value += '*' ">
+                <br> <br>
+
+
+                <input class="button" type="button" value="÷" onclick="calform.response.value += '/' ">
+                <input class="button" type="button" value="0" onclick="calform.response.value += '0' ">
+                <input class="button" type="button" value="." onclick="calform.response.value += '.' ">
+
+                <input class="button" type="button" value="="
+                    onclick="calform.response.value = eval(calform.response.value) ">
+                <br> <br>
+
+                <input class="button clear" type="button" value="Clear All" onclick="calform.response.value = ' ' "
+                    id="clear">
+                <br>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
